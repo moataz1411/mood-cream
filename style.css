@@ -1,0 +1,62 @@
+body{
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    text-align: center;
+    transition: 0.3s;
+    background: #fff3a6;
+    min-height: 100vh;
+}
+.hero{
+    padding:60px 20px;
+}
+.hero h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.moodbuttons{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+button{
+    border:none;
+    font-size: 16px;
+    padding:15px 25px;
+    cursor:pointer;
+    border-radius: 999px;
+    transition: 0.3s;
+    background: #fcabbf;
+    padding:10px 15px;
+}
+button:hover{
+    transform: translateY(-5px);
+    background: #ff5d8f;
+    color:white;
+}
+.a{
+    color: #ff4d6d;
+}
+.b{
+    color: #4361ee;
+    font-weight: bold;
+}
+.c{
+    color: #2ec4b6;
+    font-style: italic;
+}
+a{
+    display: inline-block;
+    margin: 5px;
+    color: #333;
+}
+footer{
+    margin:30px;
+    font-size: 12px;
+    opacity: 0.7;
+}

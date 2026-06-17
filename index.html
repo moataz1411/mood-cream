@@ -4,37 +4,32 @@
     <meta charset="UTF-8">
     <title>Mood Cream</title>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="hero">
     <h1>Mood Cream 🍦</h1>
-    <p>Pick ur mood to get ur flavor</p>
-    </header>
-<section class="card">
-    <h2>How are you feeling now, bro?</h2>
-<button onclick="setmode('happy')">Happy 😄</button>
-<button onclick="setmode('sad')">Sad 😢</button>
-<button onclick="setmode('focused')">Focused 🧠</button>
-<button onclick="setmode('tired')">Tired 😴</button>
-</section>
-<section class="card" id="result">
-    <h2>Ur Ice Cream</h2>
-    <p id="flavor">Pick ur mood</p>
-    <p id="quote"></p>
-</section>
-<section class="card">
-    <h2>Steps</h2>
-    <ul>
-        <li>Choose ur mood now</li>
-        <li>Get flavor of ur mood</li>
-        <li>Enjoy vibe 🥳</li>
-    </ul>
-</section>
 <section class="card">
     <p class="a">Mood changes everything 😉</p>
     <p class="b">Ice cream reflects emotions 🍫</p>
     <p class="c">I think this is the funniest web i did ever 🤩</p>
+</section>
+    <p>Pick ur mood to get ur flavor</p>
+<div class="moodbuttons">
+<button onclick="setmode('happy')">Happy 😄</button>
+<button onclick="setmode('sad')">Sad 😢</button>
+<button onclick="setmode('focused')">Focused 🧠</button>
+<button onclick="setmode('tired')">Tired 😴</button>
+</div>
+</header>
+<section class="resultcard" id="result">
+    <div id="icecream">🍦</div>
+    <h2 id="flacor">
+        pick ur mood
+    </h2>
+    <p id="quote"></p>
 </section>
 <section class="card">
     <h2>Ice cream truck sound in my street🍨</h2>
@@ -42,11 +37,17 @@
         <source src="ice cream truck.mp3" type="audio/mpeg">
     </audio>
 </section>
-<section class="card">
-    <a href="https://github.com/moataz1411/mood-cream" target="_blank">github repo of this site</a>
-<br>
-<a href="mailto:mezoahmed1411@gmail.com">u can mail me on it</a>
-</section>
+<div class="links">
+    <a href="https://github.com/moataz1411/mood-cream" target="_blank">Repo of this site
+    <i class="fab fa-github"></i>
+</a>
+<a href="mailto:mezoahmed1411@gmail.com">u can mail me on it
+<i class="fas fa-envelope"></i>
+</a>
+<a href="tel:+201025196146">
+    <i class="fas fa-phone"></i>
+</a>
+</div>
 <footer>
     <p>Made with Mozmezo ❤️|by icy laptop 🍦</p>
 </footer>
