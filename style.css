@@ -110,3 +110,31 @@ footer{
     font-size: 12px;
     opacity: 0.7;
 }
+.navbar{
+    padding: 20px;
+}
+.navbar a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.about-container{
+    width:min(700px, 90%);
+    margin: auto;
+}
+.about-img{
+    width: 300px;
+    border-radius: 25px;
+    margin: 20px 0;
+}
+.aboutbtn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#fact{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
