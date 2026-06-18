@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Mood Cream</title>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -16,27 +17,30 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     <p class="b">Ice cream reflects emotions 🍫</p>
     <p class="c">I think this is the funniest web i did ever 🤩</p>
 </section>
-    <p>Pick ur mood to get ur flavor</p>
+<div class="order">
+Pick ur mood to get ur flavor
+</div>
+    
 <div class="moodbuttons">
-<button onclick="setmode('happy')">Happy 😄</button>
-<button onclick="setmode('sad')">Sad 😢</button>
-<button onclick="setmode('focused')">Focused 🧠</button>
-<button onclick="setmode('tired')">Tired 😴</button>
+<button onclick="setmood('happy')">Happy 😄</button>
+<button onclick="setmood('sad')">Sad 😢</button>
+<button onclick="setmood('focused')">Focused 🧠</button>
+<button onclick="setmood('tired')">Tired 😴</button>
 </div>
 </header>
 <section class="resultcard" id="result">
-    <div id="icecream">🍦</div>
-    <h2 id="flacor">
+    <div id="emoji">🍦</div>
+    <h2 id="flavor">
         pick ur mood
     </h2>
     <p id="quote"></p>
 </section>
-<section class="card">
-    <h2>Ice cream truck sound in my street🍨</h2>
+<div class="audio">
+    Ice cream truck Vibes🍨
     <audio controls>
         <source src="ice cream truck.mp3" type="audio/mpeg">
     </audio>
-</section>
+</div>
 <div class="links">
     <a href="https://github.com/moataz1411/mood-cream" target="_blank">Repo of this site
     <i class="fab fa-github"></i>
@@ -48,6 +52,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     <i class="fas fa-phone"></i>
 </a>
 </div>
+<ul class="features">
+    <li>Pick your mood</li>
+    <li>Get your ice cream flavor</li>
+    <li>Enjoy the vibe 🥳</li>
+</ul>
 <footer>
     <p>Made with Mozmezo ❤️|by icy laptop 🍦</p>
 </footer>
